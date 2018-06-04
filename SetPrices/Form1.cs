@@ -56,7 +56,7 @@ namespace SetPrices
             OpenFileDialog dlg = new OpenFileDialog();
             dlg.CheckFileExists = true;
             dlg.CheckPathExists = true;
-            dlg.Filter = "Excel files (*.xls)|*.xls";
+            dlg.Filter = "Excel files (*.xls;*.xlsx)|*.xls;*.xlsx";
             dlg.Multiselect = false;
             if (dlg.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
@@ -146,6 +146,7 @@ namespace SetPrices
                 {
                     string strFile = Path.GetFileName(item);
                     strFile = strFile.Replace(".jpg", "");
+                    //strFile = strFile.Replace(".png", "");
                     //strFile = strFile.Replace("(", "#");
                     //strFile = strFile.Replace(")", "");
                     string[] values = strFile.Split(delimitersFiles);
@@ -470,6 +471,7 @@ namespace SetPrices
                     if (strSiteName.IndexOf("пончо") == 0) strType_ = "верхняя одежда";
                     if (strSiteName.IndexOf("пуховик") == 0) strType_ = "верхняя одежда";
                     if (strSiteName.IndexOf("накидка") == 0) strType_ = "верхняя одежда";
+                    if (strSiteName.IndexOf("ветровка") == 0) strType_ = "верхняя одежда";
                     if (strSiteName.IndexOf("кофта") == 0) strType_ = "пиджаки";
                     if (strSiteName.IndexOf("свитер") == 0) strType_ = "пиджаки";
                     if (strSiteName.IndexOf("капри") >= 0) strType_ = "брюки и легинсы";
@@ -481,6 +483,7 @@ namespace SetPrices
                     if (strSiteName.IndexOf("легинсы") == 0) strType_ = "брюки и легинсы";
                     if (strSiteName.IndexOf("берет") == 0) strType_ = "аксессуары";
                     if (strSiteName.IndexOf("палантин") == 0) strType_ = "аксессуары";
+                    if (strSiteName.IndexOf("ремень") == 0) strType_ = "аксессуары";
                     if (strSiteName.IndexOf("кардиган") == 0) strType_ = "жакеты и кардиганы";
                     if (strSiteName.IndexOf("жилет") == 0) strType_ = "пиджаки";
                     if (strSiteName.IndexOf("пуловер") == 0) strType_ = "блузки";
@@ -498,6 +501,7 @@ namespace SetPrices
                     if (strSiteName.IndexOf("трикотажный топ") == 0) strType_ = "блузки";
                     if (strSiteName.IndexOf("трикотажный джемпер") == 0) strType_ = "пиджаки";
 
+                    if (strSiteName.IndexOf("брошь") == 0) strType_ = "аксессуары";
                     if (strSiteName.IndexOf("гетры") == 0) strType_ = "аксессуары";
                     if (strSiteName.IndexOf("пояс") == 0) strType_ = "аксессуары";
                     if (strSiteName.IndexOf("перчатки") >= 0) strType_ = "аксессуары";
