@@ -108,6 +108,7 @@
             "Eden-Rose",
             "ELISA-FANTI",
             "ETINCELLE",
+            "FLORENCE-MODE",
             "GEORGEDE",
             "GIANI-FORTE",
             "GREGE",
@@ -137,10 +138,10 @@
             // 
             this.cbSeason.FormattingEnabled = true;
             this.cbSeason.Items.AddRange(new object[] {
-            "лето 2017",
-            "зима 2018",
-            "лето 2018",
-            "зима 2019"});
+            "зима 2019",
+            "лето 2019",
+            "зима 2020",
+            "лето 2020"});
             this.cbSeason.Location = new System.Drawing.Point(322, 46);
             this.cbSeason.Name = "cbSeason";
             this.cbSeason.Size = new System.Drawing.Size(159, 21);

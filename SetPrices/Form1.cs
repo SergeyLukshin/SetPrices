@@ -460,6 +460,7 @@ namespace SetPrices
                     if (strSiteName.IndexOf("спортивный костюм") == 0) strType_ = "спортивная одежда";
                     if (strSiteName.IndexOf("пальто") == 0) strType_ = "верхняя одежда";
                     if (strSiteName.IndexOf("куртка") == 0) strType_ = "верхняя одежда";
+                    if (strSiteName.IndexOf("парка") == 0) strType_ = "верхняя одежда";
                     if (strSiteName.IndexOf("комплект(топ+жакет)") >= 0) strType_ = "пиджаки";
                     if (strSiteName.IndexOf("комплект(топ+туника)") >= 0) strType_ = "пиджаки";
                     if (strSiteName.IndexOf("комплект") >= 0) strType_ = "пиджаки";
