@@ -444,6 +444,7 @@ namespace SetPrices
                     if (strSiteName.IndexOf("туника") == 0) strType_ = "туники";
                     if (strSiteName.IndexOf("юбка") == 0) strType_ = "юбки";
                     if (strSiteName.IndexOf("брюки") == 0) strType_ = "брюки и легинсы";
+                    if (strSiteName.IndexOf("брючки") >= 0) strType_ = "брюки и легинсы";
                     if (strSiteName.IndexOf("джинсы") == 0) strType_ = "брюки и легинсы";
                     if (strSiteName.IndexOf("болеро") == 0) strType_ = "пиджаки";
                     if (strSiteName.IndexOf("топ") == 0) strType_ = "блузки";
@@ -478,6 +479,7 @@ namespace SetPrices
                     if (strSiteName.IndexOf("капри") >= 0) strType_ = "брюки и легинсы";
                     if (strSiteName.IndexOf("шарф") == 0) strType_ = "аксессуары";
                     if (strSiteName.IndexOf("платок") == 0) strType_ = "аксессуары";
+                    if (strSiteName.IndexOf("шляпа+сумка") == 0) strType_ = "аксессуары";
                     if (strSiteName.IndexOf("шапочка вязаная") == 0) strType_ = "аксессуары";
                     if (strSiteName.IndexOf("шапка") == 0) strType_ = "аксессуары";
                     if (strSiteName.IndexOf("меховой воротник") == 0) strType_ = "аксессуары";
@@ -495,6 +497,7 @@ namespace SetPrices
                     if (strSiteName.IndexOf("плащ") == 0) strType_ = "верхняя одежда";
                     if (strSiteName.IndexOf("лосины") == 0) strType_ = "брюки и легинсы";
                     if (strSiteName.IndexOf("двойка") == 0) strType_ = "пиджаки";
+                    if (strSiteName.IndexOf("кимоно") == 0) strType_ = "блузки";
 
                     if (strSiteName.IndexOf("трикотажная блуза") == 0) strType_ = "блузки";
                     if (strSiteName.IndexOf("трикотажная туника") == 0) strType_ = "туники";
