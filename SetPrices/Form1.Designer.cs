@@ -116,6 +116,7 @@
             "JEAN-MARC-PHILIPPE",
             "KOR-KOR",
             "LEO-GUY",
+            "LEO&UGO",
             "ME",
             "MITIKA",
             "ORNA-FARHO",
